@@ -14,8 +14,8 @@ public class OrderStepDefs {
 		System.out.println("WHEN - Orders one Margherita pizza");
 	}
 
-	@Then("Kitchen should get order")
-	public void kitchen_should_get_order() {
-		System.out.println("THEN - Kitchen should get order");
+	@Then("Kitchen should receive the order")
+	public void kitchen_should_receive_the_order() {
+		System.out.println("THEN - Kitchen should receive the order");
 	}
 }
