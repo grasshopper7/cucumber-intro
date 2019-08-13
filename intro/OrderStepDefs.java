@@ -4,9 +4,9 @@ import cucumber.api.java.en.*;
 
 public class OrderStepDefs {
 
-	@Given("Customer receives the menu")
-	public void customer_receives_the_menu() {
-		System.out.println("GIVEN - Customer receives the menu");
+	@Given("Customer reads the menu")
+	public void customer_reads_the_menu() {
+		System.out.println("GIVEN - Customer reads the menu");
 	}
 
 	@When("Orders one Margherita pizza")
